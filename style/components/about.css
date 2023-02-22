@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Mozard regular";
+    src: url('../../font/Poppins-Regular.ttf')
+}
+
+.row{
+    padding: 100px;
+}
+.row{
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frow, .srow, .trow{
+    width: calc(33.33% - 20px);
+}
+
+.srow_pad , .trow_pad{
+    background-color: #fff;
+    /* min-height: 73vh; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.srow_pad .rowa, .trow_pad .rowa{
+    margin-top: 25px;
+}
+
+.frow h4{
+    color: #221F1E;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* padding: 25px 0; */
+    /* border-width: 50px; */
+}
+
+.about-line{
+    width: 50px;
+    height: 1px;
+    background-color: #db4e48;
+    margin: 25px 0;
+}
+
+.frow p{
+    margin-top: 28px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #221F1E;
+    line-height: 2;
+}
+
+.rowdiv{
+    padding: 35px 40px;
+    text-align: center;
+}
+
+.rowdiv p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2;
+    color: #221F1E;
+}
+
+.tita{
+    font-size: 18px;
+    color: #221F1E;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.tita:hover{
+    color: #db4e48;
+}
+
+
+.rowa{
+    /* border: 1px solid; */
+    display: inline-block;
+    padding: 12px 25px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #db4e48;
+    transition: .4s;
+    margin-top: 45px;
+}
+
+
+
+.rowa:hover{
+    background-color: #221F1E;
+}
+
+@media(max-width:990px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .frow{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .frow p{
+        font-size: 16px;
+    }
+
+    .frow h4{
+        font-size: 18px;
+    }
+
+    .srow, .trow{
+        width: calc(50% - 15px);
+    }
+}
+
+@media(max-width:760px){
+    .srow{
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 0 75px;
+    }
+
+    .frow p{
+        font-size: 14px;
+    }
+
+    .trow{
+        width: 100%;
+        padding: 0 75px;
+    }
+
+    .rowdiv a, .rowdiv p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:720px){
+    .row{
+        padding: 60px;
+    }
+}
+
+@media(max-width:620px){
+    .row{
+        padding: 40px;
+    }
+
+    .srow, .trow{
+        padding: 0 60px;
+    }
+}
+
+@media(max-width:520px){
+    .row{
+        padding: 20px;
+    }
+    .srow, .trow{
+        padding: 0 40px;
+    }
+}
+
+@media(max-width:490px){
+    .srow, .trow{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:450px){
+    .srow, .trow{
+        padding: 0;
+    }
+}
+

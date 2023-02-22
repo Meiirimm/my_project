@@ -1,0 +1,17 @@
+@import url("vendor/reset.css");
+@import url("components/base.css");
+@import url("components/header.css");
+@import url("components/header_menu.css");
+@import url("components/main.css");
+@import url("components/about.css");
+@import url("components/services.css");
+@import url("components/portfolio.css");
+@import url("components/call.css");
+@import url("components/call2.css");
+@import url("components/team.css");
+@import url("components/news.css");
+@import url("components/clients.css");
+@import url("components/pricing.css");
+@import url("components/people.css");
+@import url("components/contact.css");
+@import url("components/foot.css");

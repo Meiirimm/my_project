@@ -1,0 +1,58 @@
+.call_to_2_button{
+    width: calc(50% - 30px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.call_to_text_2 h6{
+    color: #fff;
+    font-weight: 600;
+    margin-top: 45px;
+    font-size: 18px;
+    line-height: 1.44444;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.call_to_email input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 13px 30px 13px 50px;
+    
+    font-size: 14px;
+}
+
+.call_to_subs{
+    width: 100%;
+    border:  none;
+    padding: 12px 25px;
+    color: #221F1E;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #fff;
+    transition: .4s;
+}
+
+.call_to_subs:hover{
+    color: #fff;
+    background-color: #221F1E;
+}
+
+.call_to_email{
+    position: relative;
+    margin-left: 70px;
+}
+
+.call_to_email .fa-regular.fa-envelope{
+    color: #c7c7c7;
+    position: absolute;
+    font-size: 23px;
+    top: 10px;
+    left: 13px;
+}
+
+.call_to_email input:focus::placeholder {
+    color: #fff;
+}

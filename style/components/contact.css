@@ -1,0 +1,210 @@
+.contact{
+    padding: 80px 100px 100px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact_item_fir{
+    width: calc(33.33% - 15px);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_item_sec{
+    width: calc(66.66% - 15px);
+}
+
+.contact_line{
+    margin: 20px 0 0;
+}
+
+.contact_address{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.contact_address_sec{
+    margin-top: 30px;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font/Poppins-Light.ttf");
+}
+
+.contact_item_fir_tit h4{
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: .06em;
+}
+
+.contact_item_fir_tit p{
+    font-size: 13px;
+    color: #221F1E;
+    margin-left: 5px;
+}
+
+.contact_num a{
+    margin-top: 15px;
+    color: #221F1E;
+    margin-right: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.contact_num a:hover{
+    color: #db4e48;
+}
+
+.contact_ikon i{
+    margin-top: 30px;
+    
+    color: #db4e48;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.contact_ikon a:hover i{
+    color: #221F1E;
+}
+
+.contact_ikon a:not(:first-child){
+    margin-left: 20px;
+}
+
+.contact_form input{
+    background-color: #f8f8f8;
+    padding: 11px 19px 11px 60px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contact_form{
+    position: relative;
+    width: 100%;
+}
+
+.contact_form .fa-regular.fa-user, .contact_form .fa-solid.fa-phone, .contact_form .fa-regular.fa-envelope, .contact_form .fa-solid.fa-feather{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    z-index: 1;
+    font-size: 20px;
+    color: #c7c7c7;
+}
+
+.contact_form input, .contact_form textarea{
+    width: calc(100% - 81px);
+}
+
+.contact_item_sec form{
+    margin-top: 38px;
+}
+
+.contact_form textarea{
+    background-color: #f8f8f8;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    resize: vertical;
+    padding: 11px 19px 11px 60px;
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contact_form textarea:focus{
+    background: #fff;
+}
+
+.contact_form textarea:focus::placeholder{
+    color: #fff;
+}
+
+.contact_button{
+    margin-top: 40px;
+}
+
+.contact_tit{
+    padding: 0;
+}
+@media (max-width: 1200px) {
+    .contact{
+        padding: 80px 80px;
+    }    
+}
+@media (max-width: 1100px) {
+    .contact{
+        padding: 80px 60px;
+    }    
+}
+@media (max-width: 1050px) {
+    .contact{
+        padding: 80px 40px;
+    }    
+}
+
+@media (max-width: 990px) {
+    .contact{
+        padding: 80px 100px;
+    }    
+    .contact_item_fir{
+        width: calc(41.66% - 15px);
+    }
+    .contact_address{
+        align-items: flex-start;
+    }
+    
+    .contact_item_sec{
+        width: calc(58.33% - 15px);
+    }
+}
+@media (max-width: 790px) {
+    .contact{
+        padding: 80px 100px;
+    }    
+    .contact_item_fir{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contact_address{
+        align-items: flex-start;
+    }
+    
+    .contact_item_sec{
+        width: 100%;
+    }
+    .contact_button{
+        margin: 0;
+    }
+}
+@media (max-width: 700px) {
+    .contact{
+        padding: 50px 80px;
+    }    
+}
+@media (max-width: 650px) {
+    .contact{
+        padding: 50px 60px;
+    }    
+}
+@media (max-width: 600px) {
+    .contact{
+        padding: 50px 40px;
+    }    
+}
+@media (max-width: 550px) {
+    .contact{
+        padding: 50px 20px;
+    }    
+}

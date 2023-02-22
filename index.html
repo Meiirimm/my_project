@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <script src="https://kit.fontawesome.com/0869a7851e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header__itemleft">
+            <div class="left1">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="#">Address: 4578 Marmora Road, Glasgow, D04 89GR</a>
+            </div>
+            <div class="left2">
+                <i class="fa-solid fa-phone"></i>
+                <a href="">(800) 123-0045</a>
+                <a href="">(800) 123-0045</a>
+            </div>
+        </div>
+        
+        <div class="header__itemright">
+            <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-vimeo-v"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="container">
+        <!-- header menu -->
+        <div class="header_menu">
+            <div class="left">
+                <div class="hleft_item" onclick="chageBurgerMenu()">
+                    <div class="header_addaptive">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <a href=""><img src="img/log.png" alt=""></a>
+                </div>
+                <div class="header_addaptivee"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                <div id="burger-menu">
+                    <div class="menu-item">
+                        <p>HOME</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>ABOUT</p>
+                    </div>
+                    <div class="menu-item">
+                       <p>SERVICES</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>PORTFOLIO</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>TESTIMONIALS</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>TEAM</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>NEWS</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>CONTACT US</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="right">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Portfolio</a>
+                <a href="">Testimonials</a>
+                <a href="">Team</a>
+                <a href="">News</a>
+                <a href="">Contact us</a>
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="main_slider">
+                <div class="main_slider_item">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="bg"></div>
+                </div>
+                <div class="main_slider_item">
+                    <img src="img/mainbg2.jpg" alt="">
+                    <div class="bg"></div>
+                </div>
+                <div class="main_slider_item">
+                    <img src="img/mainbg3.jpg" alt="">
+                    <div class="bg"></div>
+                </div>
+            </div>
+            <div class="main_container">
+                <div class="main_container_item main_row_fir">
+                    <span id="output"></span>
+                    <span>|</span>
+                    <!-- <h1>WE CREATE COZINESS  FOR  YOUR APARTMENT</h1> -->
+                </div>
+                <div class="main_container_item main_row_sec">
+                    <h4>GET A QUOTE</h4>
+                    <div class="main_line"></div>
+                    <form action="" class="main_form">
+                        <div class="name">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" placeholder="Your name">
+                        </div>
+                        <div class="name">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="text" placeholder="Your phone">
+                        </div>
+                        <div class="name">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" placeholder="Your e-mail">
+                        </div>
+                        <div class="name main_select">
+                            <i class="fa-solid fa-house"></i>
+                            <select name="type-house" class="house_sel">
+                                <option hidden>Type of property</option>
+                                <option value="2">Residential</option>
+                                <option value="3">Commercial</option>
+                            </select> 
+                        </div>
+                        <div class="name main_select">
+                            <i class="fa-solid fa-gear"></i>
+                            <select name="type-services" class="selserv house_sel">
+                                <option hidden>Type of services</option>
+                                <option value="2" class="opt1">Interior Design</option>
+                                <option value="3">Space Planning</option>
+                                <option value="4">Lighting</option>
+                                <option value="5">Decorative Services</option>
+                                <option value="6">Project Management</option>
+                            </select> 
+                        </div>
+                        <div class=" main_form_ta">
+                            <i class="fa-solid fa-feather"></i>
+                            <textarea name="" id="contact-message" cols="10" rows="3" placeholder="Your message"></textarea>
+                        </div>
+                        <a href="" class="main_button">SUBMIT</a>
+                    </form>
+                </div>
+            </div>
+        </div> 
+
+        <!-- about us -->
+        <div class="about">
+            <div class="row">
+                <div class="frow">
+                    <h4>About us</h4>
+                    <div class="about-line"></div>
+                    <p>Interiart is an award-winning architecture and interior design practice based in NYC. We work internationally on projects of residential & commercial interior design that require a creative approach. Our talented and experienced designers leverage their knowledge and expertise to create unique and comfortable interiors for you.</p>
+                    <p class="ourteam">Our team knows that interior design can be stressful for the client and we do our best to make it as easy as possible. We listen to your needs, ideas, and inputs. And most importantly, we make it exciting and enjoyable for our clients.</p>
+                    <a href="" class="rowa">READ MORE</a>
+                </div>
+
+                <div class="srow">
+                    <div class="srow_pad">
+                        <img src="img/row1.jpg" alt="">
+                        <div class="rowdiv">
+                            <a href="" class="tita">COMMERCIAL DESIGN</a>
+                            <p>We take a dedicated approach to help our commercial clients create the interior for their company offices and other spaces.</p>
+                            <a href="" class="rowa">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trow">
+                    <div class="trow_pad">
+                        <img src="img/row2.jpg" alt="">
+                        <div class="rowdiv">
+                            <a href="" class="tita">RESIDENTIAL DESIGN</a>
+                            <p>Our residential interior design services are perfect for creating a cozy atmosphere in your house regardless of its size.</p>
+                            <a href="" class="rowa">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- our services -->
+        <div class="services">
+            <div class="services_row">
+                <div class="services_row_item_fir">
+                    <div class="services_back">
+                        <div class="services_rbg"></div>
+                    </div>
+        
+                    <div class="services_content">
+                        <div class="services_tit">
+                            <h4>our services</h4>
+                            <div class="about-line"></div>
+                            <p class="services_tit_p1">Our diverse range of services has brought together a multidisciplinary team of professionals. Beyond simply providing interior design solutions, we take care of our clients’ safety and comfort.</p>
+                            <p class="services_tit_p2">Every service we offer our clients is a combination of professionalism, talent, innovations, and experience that our team incorporates into each of the projects we work on. Here are some of the services we <br> offer.</p>
+                            <a href="" class="service_button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_row_item_sec">
+                    <div class="serv_sec_row_item">
+                        <div class="serv_hover">
+                            <i class="fa-solid fa-feather-pointed"></i>
+                            <div class="serv_hover_d"></div>
+                        </div>
+                        <p class="item_tit">Interior Design</p>
+                        <p class="item_par">Interior design services offer a vast variety of solutions for our clients’ homes and offices.</p>
+                    </div>
+                    <div class="serv_sec_row_item">
+                        <div class="serv_hover">
+                            <i class="fa-solid fa-bars"></i>
+                            <div class="serv_hover_d"></div>
+                        </div>
+                        <p class="item_tit">Decorative Services</p>
+                        <p class="item_par">Our professional decorators will be happy to help you change your house’s inner look.</p>
+                    </div>
+                    <div class="serv_sec_row_item">
+                        <div class="serv_hover">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="serv_hover_d"></div>
+                        </div>
+                        <p class="item_tit">Space Planning</p>
+                        <p class="item_par">We create better interior experiences through our space planning services.</p>
+                    </div>
+                    <div class="serv_sec_row_item">
+                        <div class="serv_hover">
+                            <i class="fa-solid fa-rocket"></i>
+                            <div class="serv_hover_d"></div>
+                        </div>
+                        <p class="item_tit">Project Management</p>
+                        <p class="item_par">We provide proper project management as it’s one of the main success factors in interior design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- portfolio -->
+        <div class="portfolio">
+            <div class="portfolio_tit">
+                <h4>PORTFOLIO</h4>
+                <div class="port-line"></div>
+                <div class="portfolio_menu">
+                    <a href="">ALL</a>
+                    <a href="">COMMERCIAL</a>
+                    <a href="">RESIDENTIAL</a>
+                    <a href="">OFFICE</a>
+                    <a href="">OTHER</a>
+                </div>
+            </div>
+            <div class="portfolio_gal">
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio1.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">Green Power Office</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio2.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">Meeting Lounge</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio3.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">Biscayne Hotel</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio4.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">NYC Living Room</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio5.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">Garden Loft Room</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio6.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">ABC Language Center</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio7.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">Blue Wonder Hotel</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="portfolio_gal_item portfolio_gal_item1" onclick="OpenModal(this)">
+                    <img src="img/portfolio8.jpg" alt="">
+                    <div class="portfolio_hover">
+                        <i class="fa-regular fa-image"></i>
+                        <h4>Projects</h4>
+                        <p class="portfolio_hover_p1">Smith Art Gallery</p>
+                        <div class="port_hover_line"></div>
+                        <p class="portfolio_hover_p2">Professional interior design services.</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div id="modal-window">
+                    <div class="modal-content">
+                        <img src="" alt="" width="300px" class="slider_img">
+                        <button onclick="closeModal()" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                        <button onclick="changeImg(-1)" class="left-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button onclick="changeImg(+1)"  class="right-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- call to action -->
+        <div class="call_to">
+            <div class="call_to_text">
+                <h4>If you can envision it, then we can design it. <br>Tell us more about your project!</h4>
+            </div>
+            <div class="call_to_button">
+                <a href="" class="rowa call_button">CONTACT US</a>
+            </div>
+        </div>
+
+        <!-- people say -->
+        <div class="people">
+            <div class="people_back">
+                <div class="people_rbg"></div>
+            </div>
+            
+            <div class="people_content">
+                <div class="people_item">
+                    <div class="team_tit people_content_item">
+                        <h4>WHAT PEOPLE SAY</h4>
+                        <div class="port-line"></div>
+                    </div>
+                    <div class="people_content_item_sec">
+                        <img src="img/people1.jpg" alt="">
+                        <p class="people_content_item_p1">This team was highly recommended to me. The sensitivity, knowledge, vision and ultimate execution this firm brought to the table was tremendous and that’s what I like the most about them.</p>
+                        <p class="people_content_item_p2">ANN WILLIAMS</p>
+                    </div>
+                </div>
+                <div class="people_item">
+                    <div class="team_tit people_content_item">
+                        <h4>WHAT PEOPLE SAY</h4>
+                        <div class="port-line"></div>
+                    </div>
+                    <div class="people_content_item_sec">
+                        <img src="img/people2.jpg" alt="">
+                        <p class="people_content_item_p1">I chose Interiart because of their superior range of design capabilities and their insightful advice during pre-construction planning. Their attention to detail has proven invaluable to me in creating a finished project.</p>
+                        <p class="people_content_item_p2">JAMES WILSON</p>
+                    </div>
+                </div>
+                <div class="people_item">
+                    <div class="team_tit people_content_item">
+                        <h4>WHAT PEOPLE SAY</h4>
+                        <div class="port-line"></div>
+                    </div>
+                    <div class="people_content_item_sec">
+                        <img src="img/people3.jpg" alt="">
+                        <p class="people_content_item_p1">Your professional guidance gave me results that far exceeded my expectations. My clients thoroughly enjoy the fun, relaxing ambiance that the interior design creates. Thank you for a great job.</p>
+                        <p class="people_content_item_p2">JANE SMITH</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- our team -->
+        <div class="team">
+            <div class="team_tit">
+                <h4>OUR TEAM</h4>
+                <div class="port-line"></div>
+                <p>Our multidisciplinary team of interior design experts is committed to delivering effective and innovative solutions for major commercial, residential, corporate, industrial, and multi-dwelling projects.</p>
+            </div>
+            <div class="team_row">
+                <div class="team_row_item">
+                    <div class="team_row_item_pic"><img src="img/team1.jpg" alt="">
+                        <div class="team_row_hover">
+                            <div class="team_row_hover_el">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-vimeo-v"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="team_row_item_p1"><a href="">Brian King</a></p>
+                    <p class="team_row_item_p2">Founder, Senior Designer</p>
+                </div>
+                <div class="team_row_item">
+                    <div class="team_row_item_pic"><img src="img/team2.jpg" alt="">
+                        <div class="team_row_hover">
+                            <div class="team_row_hover_el">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-vimeo-v"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="team_row_item_p1"><a href="">Amanda Smith</a></p>
+                    <p class="team_row_item_p2">Senior Architect</p>
+                </div>
+                <div class="team_row_item">
+                    <div class="team_row_item_pic"><img src="img/team3.jpg" alt="">
+                        <div class="team_row_hover">
+                            <div class="team_row_hover_el">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-vimeo-v"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="team_row_item_p1"><a href="">George Nelson</a></p>
+                    <p class="team_row_item_p2">Decorator</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- news -->
+        <div class="news">
+            <div class="team_tit">
+                <h4>RECENT NEWS</h4>
+                <div class="port-line"></div>
+            </div>
+            <div class="news_row">
+                <div class="news_row_item">
+                    <div class="news_row_item_pic"><a href="" class="news_row_item_pica"><img src="img/news1.jpg" alt=""></a></div>
+                    <div class="news_row_item_tit"><a href=""><h6>BUILDING THE KITCHEN OF YOUR <br> DREAM</h6></a></div>
+                    <div class="news_row_item_a">
+                        <a href="" class="news_row_item_a1">Jan.20, 2018</a>
+                        <a href="" class="news_row_item_a1 news_row_item_a2">by Brian Williamson</a>
+                    </div>
+                    <div class="news_row_item_par"><p>The kitchen is the heart of the home, and whether you’re an avid cook or not, we all have a dream kitchen in mind. Creating…</p></div>
+                </div>
+                <div class="news_row_item">
+                    <div class="news_row_item_pic"><a href="" class="news_row_item_pica"><img src="img/news3.jpg" alt=""></a></div>
+                    <div class="news_row_item_tit"><a href=""><h6>HOW COLOR TRANSFORMS YOUR <br> HOUSE</h6></a></div>
+                    <div class="news_row_item_a">
+                        <a href="" class="news_row_item_a1">Jan.20, 2018</a>
+                        <a href="" class="news_row_item_a1 news_row_item_a2">by Brian Williamson</a>
+                    </div>
+                    <div class="news_row_item_par"><p>Using proper colors for your interior is a very powerful tool that can transform your home in a way hardly imaginable. Let’s…</p></div>
+                </div>
+                <div class="news_row_item">
+                    <div class="news_row_item_pic"><a href="" class="news_row_item_pica"><img src="img/news2.jpg" alt=""></a></div>
+                    <div class="news_row_item_tit"><a href=""><h6>TOP 5 REASONS TO INSTALL NEW FLOORING</h6></a></div>
+                    <div class="news_row_item_a">
+                        <a href="" class="news_row_item_a1">Jan.20, 2018</a>
+                        <a href="" class="news_row_item_a1 news_row_item_a2">by Brian Williamson</a>
+                    </div>
+                    <div class="news_row_item_par"><p>Updating your floors can be an intimidating and overwhelming process, but it is so worth it. Today we’re sharing 5 reasons…</p></div>
+                </div>
+                <div class="news_row_item">
+                    <div class="news_row_item_pic"><a href="" class="news_row_item_pica"><img src="img/news1.jpg" alt=""></a></div>
+                    <div class="news_row_item_tit"><a href=""><h6>BUILDING THE KITCHEN OF YOUR <br> DREAM</h6></a></div>
+                    <div class="news_row_item_a">
+                        <a href="" class="news_row_item_a1">Jan.20, 2018</a>
+                        <a href="" class="news_row_item_a1 news_row_item_a2">by Brian Williamson</a>
+                    </div>
+                    <div class="news_row_item_par"><p>The kitchen is the heart of the home, and whether you’re an avid cook or not, we all have a dream kitchen in mind. Creating…</p></div>
+                </div>
+                <div class="news_row_item">
+                    <div class="news_row_item_pic"><a href="" class="news_row_item_pica"><img src="img/news3.jpg" alt=""></a></div>
+                    <div class="news_row_item_tit"><a href=""><h6>HOW COLOR TRANSFORMS YOUR <br> HOUSE</h6></a></div>
+                    <div class="news_row_item_a">
+                        <a href="" class="news_row_item_a1">Jan.20, 2018</a>
+                        <a href="" class="news_row_item_a1 news_row_item_a2">by Brian Williamson</a>
+                    </div>
+                    <div class="news_row_item_par"><p>Using proper colors for your interior is a very powerful tool that can transform your home in a way hardly imaginable. Let’s…</p></div>
+                </div>
+                <div class="news_row_item">
+                    <div class="news_row_item_pic"><a href="" class="news_row_item_pica"><img src="img/news2.jpg" alt=""></a></div>
+                    <div class="news_row_item_tit"><a href=""><h6>TOP 5 REASONS TO INSTALL NEW FLOORING</h6></a></div>
+                    <div class="news_row_item_a">
+                        <a href="" class="news_row_item_a1">Jan.20, 2018</a>
+                        <a href="" class="news_row_item_a1 news_row_item_a2">by Brian Williamson</a>
+                    </div>
+                    <div class="news_row_item_par"><p>Updating your floors can be an intimidating and overwhelming process, but it is so worth it. Today we’re sharing 5 reasons…</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- call to action2 -->
+        <!-- <div class="call_to">
+            <div class="call_to_text call_to_text_2">
+                <h4>Get latest news delivered daily!</h4>
+                <h6>We will send you breaking news right to your inbox.</h6>
+            </div>
+            <div class="call_to_2_button">
+                <div class="call_to_email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="text" placeholder="Enter please your e-mail">
+                </div>
+                <div><button class="call_to_subs">SUBSCRIBE!</button></div>
+            </div>
+        </div> -->
+
+        <!-- clients -->
+        <div class="clients">
+            <div class="clients_row">
+                <div class="clients_row_item">
+                    <img src="img/clients1.png" alt="">
+                </div>
+                <div class="clients_row_item">
+                    <img src="img/clients2.png" alt="">
+                </div>
+                <div class="clients_row_item">
+                    <img src="img/clients3.png" alt="">
+                </div>
+                <div class="clients_row_item">
+                    <img src="img/clients4.png" alt="">
+                </div>
+                <div class="clients_row_item">
+                    <img src="img/clients5.png" alt="">
+                </div>
+                <div class="clients_row_item">
+                    <img src="img/clients6.png" alt="">
+                </div>
+            </div>
+        </div> 
+        
+        <!-- <div class="clients">
+            <div class="clients_row">
+                <img src="img/clients1.png" alt="">
+                <img src="img/clients2.png" alt="">
+                <img src="img/clients3.png" alt="">
+                <img src="img/clients4.png" alt="">
+                <img src="img/clients5.png" alt="">
+                <img src="img/clients6.png" alt="">
+            </div>
+        </div> -->
+        <!-- pricing -->
+        <div class="pricing">
+            <div class="team_tit">
+                <h4>OUR PRICING</h4>
+                <div class="port-line"></div>
+            </div>
+            <div class="pricing_row">
+                <div class="pricing_row_item">
+                    <div class="pricing_row_item_fir">
+                        <h5>BASIC</h5>
+                        <span class="pricing_row_item_span0">$</span>
+                        <span class="pricing_row_item_span1" data-num="14.89">0</span>
+                        <span class="pricing_row_item_span2">/monthly</span>
+                    </div>
+                    <div class="pricing_row_item_sec">
+                        <p>Interior Design</p>
+                        <p>Project Discussion</p>
+                        <p>Space Planning</p>
+                        <p>Online Consultation</p>
+                    </div>
+                    <div class="pricing_row_item_button">
+                        <a href="" class="rowa">BUY NOW!</a>
+                    </div>
+                </div>
+                <div class="pricing_row_item pricing_row_item1">
+                    <div class="pricing_row_item_ser">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>most <br> popular</span>
+                    </div>
+                    <div class="pricing_row_item_fir">
+                        <h5>RESIDENTIAL</h5>
+                        <span class="pricing_row_item_span0">$</span>
+                        <span class="pricing_row_item_span1" data-num="32.89">0</span>
+                        <span class="pricing_row_item_span2">/monthly</span>
+                    </div>
+                    <div class="pricing_row_item_sec">
+                        <p>Color Analysis</p>
+                        <p>Space Planning</p>
+                        <p>Home Remodeling</p>
+                        <p>3D Interior Model</p>
+                    </div>
+                    <div class="pricing_row_item_button">
+                        <a href="" class="rowa">BUY NOW!</a>
+                    </div>
+                </div>
+                <div class="pricing_row_item">
+                    <div class="pricing_row_item_fir">
+                        <h5>COMMERCIAL</h5>
+                        <span class="pricing_row_item_span0">$</span>
+                        <span class="pricing_row_item_span1" data-num="76.89">0</span>
+                        <span class="pricing_row_item_span2">/monthly</span>
+                    </div>
+                    <div class="pricing_row_item_sec">
+                        <p>Lighting</p>
+                        <p>Flooring</p>
+                        <p>Custom Furnishings</p>
+                        <p>Project Management</p>
+                    </div>
+                    <div class="pricing_row_item_button">
+                        <a href="" class="rowa">BUY NOW!</a>
+                    </div>
+                </div>
+                <div class="pricing_row_item">
+                    <div class="pricing_row_item_fir">
+                        <h5>PROFESSIONAL</h5>
+                        <span class="pricing_row_item_span0">$</span>
+                        <span class="pricing_row_item_span1"data-num="89.89">0</span>
+                        <span class="pricing_row_item_span2">/monthly</span>
+                    </div>
+                    <div class="pricing_row_item_sec">
+                        <p>Concept Development</p>
+                        <p>Decoration Services</p>
+                        <p>Interior Architecture</p>
+                        <p>Flooring Installation</p>
+                    </div>
+                    <div class="pricing_row_item_button">
+                        <a href="" class="rowa">BUY NOW!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+            <div class="contact_item contact_item_fir">
+                <div class="team_tit contact_tit">
+                    <h4>CONTACT DETAILS</h4>
+                    <div class="port-line contact_line"></div>
+                </div>
+                <div class="contact_item_fir_tit">
+                    <div class="contact_address">
+                        <h4>ADDRESS:</h4>
+                        <p>4578 Marmora Road, Glasgow, D04 89GR</p>
+                    </div>
+                    <div class="contact_address_sec">
+                        <h4>PHONES:</h4>
+                        <div class="left2 contact_num">
+                            <a href="">(800) 123-0045 ;</a>
+                            <a href="">(800) 123-0045</a>
+                        </div>
+                    </div>
+                    <div class="contact_address">
+                        <h4>WE ARE OPEN:</h4>
+                        <p>Mn-Fr: 10 am-8 pm</p>
+                    </div>
+                    <div class="contact_ikon">
+                        <a href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-vimeo-v"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_item contact_item_sec">
+                <div class="team_tit contact_tit">
+                    <h4>GET IN TOUCH</h4>
+                    <div class="port-line contact_line"></div>
+                </div>
+                <form action="">
+                    <div class="name contact_form">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="name phone contact_form">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="text" placeholder="Your phone">
+                    </div>
+                    <div class="name email contact_form">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" placeholder="Your e-mail">
+                    </div>
+                    <div class="name email contact_form">
+                        <i class="fa-solid fa-feather"></i>
+                        <textarea name="" id="contact-message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="pricing_row_item_button contact_button">
+                        <a href="" class="rowa">SEND</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <div class="footer">
+            <div class="footer_row">
+                <div class="footer_row_item">
+                    <h6>ABOUT</h6>
+                    <p>We are one of the leading interior design and remodeling studios available for all of your residential and commercial interior design needs. Our team brings a high level of ingenuity and creativity to each project. Our desire is to create a design that represents your personal and unique style, creating an environment that you will love for years to come.</p>
+                </div>
+                <div class="footer_row_item">
+                    <h6>NAVIGATION</h6>
+                    <ul class="footer_row_item_list">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Team</a></li>
+                        <li><a href="">Our Clients</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer_row_item">
+                    <h6>RECENT COMMENTS</h6>
+                    <ul class="footer_row_item_list footer_row_item_list_sec">
+                        <li>
+                            <p>Brian Williamson on</p>
+                            <a href="">How to Improve Your Lighting at Home</a>
+                        </li>
+                        <li>
+                            <p>Brian Williamson on</p>
+                            <a href="">The Answer to a Satisfying Sectional Experience</a>
+                        </li>
+                        <li>
+                            <p>Brian Williamson on</p>
+                            <a href="">7 Ways to Add a Custom Look to Your Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_row_item">
+                    <h6>CONTACTS</h6>
+                    <ul class="footer_row_item_list footer_row_item_list_sec footer_row_item_list_thr">
+                        <li>
+                            <span>Address:</span>
+                            <span>4578 Marmora Road, Glasgow, D04 89GR</span>
+                        </li>
+                        <li>
+                            <span>Phones:</span>
+                            <a href="">(800) 123-0045</a>
+                            <br>
+                            <a href="">(800) 123-0045</a>
+                        </li>
+                        <li>
+                            <span>E-mail:</span>
+                            <a href="">info@demolink.org</a>
+                        </li>
+                        <li>
+                            <span>We are open:</span>
+                            <span>Mn-Fr: 10 am-8 pm</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page_footer">
+            <div class="page_footer_left">
+                <span>Interiart 2022. All Rights Reserved.</span>
+                <a href="#"> Terms of Use and Privacy Policy</a>
+            </div>
+            
+            <div class="page_footer_right">
+                <a href="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-vimeo-v"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+            </div>
+        </div>  
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/counter.js"></script>
+</body>
+</html>
